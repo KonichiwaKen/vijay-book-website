@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
 .img-src {
   position: fixed;
   -webkit-background-size: cover;
@@ -14,7 +19,7 @@
 
 .home {
   width: 500px;
-  height: 1000px;
+  height: 100%;
   margin: auto;
 }
 
@@ -34,7 +39,7 @@ h1 {
 
 .synopsis {
   width: 500px;
-  height: 1000px;
+  height: calc(100% - 150px);
   margin: auto;
   padding-top: 150px;
 }
@@ -60,4 +65,8 @@ h1 {
 .nav-item {
   display: inline-block;
   cursor: pointer;
+}
+
+.active {
+  text-decoration: underline;
 }

@@ -22,7 +22,7 @@ $(document).ready(function() {
     });
 
     // $sections incleudes all of the container divs that relate to menu items.
-    var $sections = $('.container');
+    var $sections = $('section');
 
     // The user scrolls
     $(window).scroll(function() {
@@ -48,8 +48,8 @@ $(document).ready(function() {
 
             // This is the bit of code that uses the currentSection as its source of ID
             var id = $currentSection.attr('id');
-            $('a').removeClass('active');
-            $("[href=#"+id+"]").addClass('active');
+            $('span').removeClass('active');
+            $("#"+id+"-nav-item").addClass('active');
         });
     });
 });
