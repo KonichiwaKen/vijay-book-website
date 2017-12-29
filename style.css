@@ -54,6 +54,11 @@ h1 {
   padding-top: 150px;
 }
 
+.author {
+  height: calc(100% - 150px);
+  padding-top: 150px;
+}
+
 .nav-bar {
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -95,4 +100,9 @@ section p {
 
 #amazon-logo {
   width: 20%;
+}
+
+#headshot {
+  border-radius: 50%;
+  height: 250px;
 }
