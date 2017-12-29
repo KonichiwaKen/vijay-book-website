@@ -14,9 +14,9 @@
 </head>
 
 <body>
-  <div id="blurred-image-container">
-    <div class="img-src" style="background-image:url('book_cover_cropped.jpg')"></div>
-    <div class="img-src blurred-img" style="background-image:url('book_cover_cropped_blurred.jpg')"></div>
+  <div class="background-image-container">
+    <div class="background-image" id="standard-background"></div>
+    <div class="background-image" id="blurred-background"></div>
   </div>
 
   <div class="nav-bar">
@@ -27,39 +27,41 @@
     <span class="nav-item" id="author-nav-item">About The Author</span>
   </div>
 
-  <section class="home" id="home">
+  <section class="section-container" id="home">
     <h1 id="title">A Brown Man in Russia</h1>
   </section>
 
-  <section class="synopsis" id="synopsis">
-    <p style="color: white; text-align: center; font-family: 'Poppins';">
-      This book is a reminder to those who feel marginalized, hopeless, or endlessly divided that harmony is achievable even in the most unlikely of places.
-    </p>
+  <section class="section-container" id="synopsis">
+    <div class="text-container">
+      <p>
+        This book is a reminder to those who feel marginalized, hopeless, or endlessly divided that harmony is achievable even in the most unlikely of places.
+      </p>
+    </div>
   </section>
 
-  <section class="book-fair" id="book-fair">
+  <section class="section-container" id="book-fair">
     <div class="image-container">
-      <img src="London_Book_Fair_logo.png" alt="London Book Fair" id="book-fair-logo">
+      <img id="book-fair-logo" src="London_Book_Fair_logo.png" alt="London Book Fair">
     </div>
     <p>
       A Brown Man in Russia is premiering at the London Book Fair.
     </p>
   </section>
 
-  <section class="purchase" id="purchase">
+  <section class="section-container" id="purchase">
     <p>
       Purchase the book from your favorite online retailers
     </p>
-    <div style="text-align: center;">
-      <img src="Amazon_logo.png" alt="Amazon" id="amazon-logo">
+    <div class="purchase-banners">
+      <img id="amazon-logo" src="Amazon_logo.png" alt="Amazon">
     </div>
   </section>
 
-  <section class="author" id="author">
-    <div style="text-align: center;">
+  <section class="section-container" id="author">
+    <div class="image-container">
       <img id="headshot" src="headshot_cropped.jpg">
     </div>
-    <div style="padding-left: 200px; padding-right: 200px;">
+    <div class="text-container">
       <p>
         Vijay Menon is xxx at Scribd. He is a proud graduate of Duke University where he double majored in Statistics and Economics. He currently resides in San Francisco, CA. In his free time, he enjoys traveling and cheering on the Warriors.
       </p>
