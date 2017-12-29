@@ -44,8 +44,9 @@ h1 {
   padding-top: 150px;
 }
 
-.synopsis p {
-  font-size: 32px;
+.book-fair {
+  height: calc(100% - 150px);
+  padding-top: 150px;
 }
 
 .nav-bar {
@@ -69,4 +70,20 @@ h1 {
 
 .active {
   text-decoration: underline;
+}
+
+#book-fair-logo {
+  width: 100%;
+}
+
+.image-container {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+section p {
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
 }
