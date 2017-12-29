@@ -27,6 +27,12 @@ $(document).ready(function() {
         }, 2000);
     });
 
+    $("#purchase-nav-item").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#purchase").offset().top
+        }, 2000);
+    });
+
     // $sections includes all of the sections that relate to menu items.
     var $sections = $('section');
 

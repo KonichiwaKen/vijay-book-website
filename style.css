@@ -49,6 +49,11 @@ h1 {
   padding-top: 150px;
 }
 
+.purchase {
+  height: calc(100% - 150px);
+  padding-top: 150px;
+}
+
 .nav-bar {
   color: white;
   font-family: 'Poppins', sans-serif;
@@ -86,4 +91,8 @@ section p {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
+}
+
+#amazon-logo {
+  width: 20%;
 }
